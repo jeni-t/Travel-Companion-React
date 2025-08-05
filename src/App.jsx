@@ -16,8 +16,8 @@ import Madurai from "./Madurai";
 import Chennai from "./Chennai";
 import Bengaluru from "./Bengaluru";
 import Coimbatore from "./Coimbatore";
-// import Thanjavur from "./Thanjavur";
-// import Kanyakumari from "./Kanyakumari";
+import Thanjavur from "./Thanjavur";
+import Kanyakumari from "./Kanyakumari";
 import Hotel from "./Hotel";
 import BookNow from "./BookNow";
 import BookingHistory from './BookingHistory'
@@ -41,8 +41,8 @@ function App() {
  <Route path="/chennai" element={<Chennai />} />
  <Route path="/bengaluru" element={<Bengaluru />} />
  <Route path="/coimbatore" element={<Coimbatore />} />
- {/* <Route path="/thanjavur" element={<Thanjavur />} />
- <Route path="/kanyakumari" element={<Kanyakumari />} /> */}
+  <Route path="/thanjavur" element={<Thanjavur />} />
+ <Route path="/kanyakumari" element={<Kanyakumari />} /> 
  <Route path="/hotel" element={<Hotel/>}/>
  <Route path="/booknow" element={
  <Elements stripe={stripePromise}>
